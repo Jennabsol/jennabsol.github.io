@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="../styles/steve.css">
+    <link rel="stylesheet" href="./styles/article-form.css">
+</head>
+
+<body>
+    <nav class="admin_Navigation">
+        <ul class="admin_navList"></ul>
+    </nav>
+    <header>
+        <h1>Admin Page</h1>
+    </header>
+    <article id="blog" class="mainSection hidden">
+        <header>
+            <h1>Create Blog Article</h1>
+        </header>
+        <section id="blogForm">
+            <label>Title</label>
+            <input type="text" name="blogForm__title">
+
+            <label>Contents</label>
+            <textarea name="blogForm__body"></textarea>
+
+            <label>Tags (comma separated)</label>
+            <input type="text" name="blogForm__tags">
+
+            <div id="blogForm__save">
+                <button id="blogForm__saveButton">Save</button>
+            </div>
+        </section>
+        <section class="blogList">
+        </section>
+    </article>
+
+    <article id="resume" class="mainSection hidden">
+            <header>
+                <h1>Create Resume</h1>
+            </header>
+            <section id="resumeForm">
+                <label>Company</label>
+                <input type="text" name="resumeForm__company">
+
+                <label>Job Title</label>
+                <input type="text" name="resumeForm__title">
+
+                <label>Start: </label>
+                <input type="number" value="2017" name="resumeForm__start">
+
+                <label>End: </label>
+                <input type="number" value="2017" name="resumeForm__end">
+
+                <label>Contents</label>
+                <textarea name="resumeForm__body"></textarea>
+
+                <div id="resumeForm__save">
+                    <button id="resumeForm__saveButton">Save</button>
+                </div>
+            </section>
+            <section class="resumeList">
+            </section>
+        </article>
+
+    <footer>Copyright &copy; 2017 Jenna Blas Solis</footer>
+
+    <script src=""></script>
+</body>
+
+</html>
