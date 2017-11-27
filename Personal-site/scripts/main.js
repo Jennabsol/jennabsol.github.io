@@ -7,13 +7,13 @@ let sentence = ["The", "walrus", "danced", "through", "the", "trees", "in", "the
     and output the words to the browser console.
 */
 function addExcitement (theWordArray) {
-    let row = " "
+	let row = " "
 
-    for (let i = 0; i < sentence.length; i++) {
-        let currentWord = sentence[i]
-        row += currentWord += " "
-        console.log(row)
-    }
+	for (let i = 0; i < sentence.length; i++) {
+		let currentWord = sentence[i]
+		row += currentWord += " "
+		console.log(row)
+	}
 }
 
 // Invoke the function and pass in the array
